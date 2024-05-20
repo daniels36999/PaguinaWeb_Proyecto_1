@@ -1,14 +1,22 @@
 :root{
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Courier+Prime:wght@400;700&family=Inconsolata&family=Rationale&display=swap');
+
     --color1:#E0EEEF;
-    --color2:#334a6f;
+    --color2:#7cdd3b;
     --blanco:#FFFFFF;
-    --color4:#85929E;
-    --color5:#334a6f;
+    --color4:#b7ff00;
+    --color5:#8ebd6e;
     --ozcuro:#000000;
-    --color7:#1C2833;
-    --color8:#160c5d;
-    --color9:#d1daee;
+    --color7:#1e5508;
+    --color8:#379f0e;
+    --color9:#d7fec4;
+
+
+--fuente_titulo: 'Nunito', sans-serif, Helvetica;
+--fuente_parrafo: 'Rubik', sans-serif, Helvetica;
+--fuente_hack:'Anonymous Pro', Helvetica, sans-serif;
    
 }
 
@@ -45,15 +53,19 @@ h1{
 }
 
 h2{
-    font-size: 2.8rem;
+    font-size: 4rem;
     
 }
 h3{
-    font-size: 2rem;  
+    font-size: 3rem;  
 }
 
 h1,h2,h3{
     text-align: center;
+}
+
+svg{
+    stroke: var(--color7);
 }
 
 .boton{
@@ -105,7 +117,7 @@ h1,h2,h3{
     padding: 2rem;
 }
 .titulo span {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .divBg{
@@ -128,6 +140,9 @@ h1,h2,h3{
 .navPrincipal{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
     
     
 }
@@ -140,13 +155,16 @@ h1,h2,h3{
 }
 
 .navPrincipal a{
-    display: block;
+    display: flex;
     text-align: center;
     padding: 1rem;
     color: var(--blanco);
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .navPrincipal a:hover{
@@ -154,7 +172,7 @@ h1,h2,h3{
     color: var(--ozcuro);
 }
 .hero{
-    background-image: url(../img/portada.jpg);
+    background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -287,6 +305,26 @@ column-gap: 2rem;
     width: 100%;
 }
 
-.footer{
+.footer-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6vw 3vw ;
+    min-height: 6rem;
+    background-color: black;
+
+}
+
+.footer-container-2 button{
+    background-color: transparent;
+    padding: 0; 
+    margin: 0;
+    border: none;
+    color: rgb(47, 255, 0);
+}
+
+.footer-container-2 p{
+    font-family: var(fuente_hack);
     text-align: center;
+    color: #ffffff;
 }
