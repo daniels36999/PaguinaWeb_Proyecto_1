@@ -1,0 +1,71 @@
+//GITHUB
+-------------------------------------
+git remote add origin https://github.com/tu-usuario/tu-repositorio.git
+git add .
+git commit .m "Update"
+git push origin main
+
+//NPM
+-------------------------------------
+//ERROR: Elimina /node-modules
+//ERROR(CMD): npm cache clean --force
+//ERROR(CMD2):npm install --legacy-peer-deps
+
+npm init
+npm install
+
+//SASS
+-------------------------------------
+npm install sass --save-dev
+npm install cssnano  --save-dev 
+
+//GULP
+-------------------------------------
+npm install gulp --save-dev
+npm install gulp-sass --save-dev
+npm install gulp-sourcemaps --save-dev
+npm install gulp-concat --save-dev
+npm install gulp-terser-js --save-dev
+npm install gulp-rename --save-dev
+npm install gulp-postcss --save-dev
+npm install gulp-autoprefixer --save-dev
+
+//OTHER
+-------------------------------------
+npm install terser --save-dev
+
+//RUN GULP
+-------------------------------------
+CMD 1: npx gulp nameFuntion
+CMD 2: npm rum nameFuntion (In package,json)
+
+//RUN PHP SERVER
+-------------------------------------
+php -S localhost:3000
+
+//VITE
+-------------------------------------
+//ERROR(CMD): npm install react-router-dom
+//ERROR(CMD): npm install --save-dev @types/react
+//ERROR(CMD): npm install --save-dev @types/react-dom
+//ERROR(CMD): npm install npm install --save-dev @types/node
+npm create vite@latest
+npm run dev
+
+
+//REACT
+-------------------------------------
+//ERROR(CMD): npm install react-scripts --save
+
+npx create-react-app mi-aplicacion
+
+
+//GITHUB PAGES
+-------------------------------------
+//ADD(package.json):  "homepage":"https://yourusername.github.io/repository-name"
+//ADD(package.json):  "predeploy": "npm run build",
+//ADD(package.json):  "deploy":"gh-pages -d build",
+
+npm install --save-dev gh-pages (Una vez)
+npm run build
+npm run deploy

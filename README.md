@@ -15,3 +15,4 @@
 **Tecnologías Utilizadas:**  
 * HTML  
 * CSS
+* JS
