@@ -182,7 +182,7 @@ button:hover{
 /* PORTADA */
 /* ------------------------------------ */
 .portada{
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
